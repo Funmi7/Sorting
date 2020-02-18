@@ -18,6 +18,7 @@ def merge( arrA, arrB ):
     while len(arrB):
         merged_arr.append(arrB[0])
         arrB.pop(0)
+    return merged_arr
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
